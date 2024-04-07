@@ -21,11 +21,11 @@
 # else:
 #     print(f"{n} tub son emas")
 
-# print("2 ta sonning EKUBini hisoblovchi dastur.")
-# a = int(input("a sonini kiriting:"))
-# b = int(input("b sonini kiriting:"))
-# while a != b:
-#     if a > b: a-=b
-#     else: b-=a
-# print(f"EKUB:{a}")
+print("2 ta sonning EKUBini hisoblovchi dastur.")
+a = int(input("a sonini kiriting:"))
+b = int(input("b sonini kiriting:"))
+while a != b:
+    if a > b: a-=b
+    else: b-=a
+print(f"EKUB:{a}")
 
