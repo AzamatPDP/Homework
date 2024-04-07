@@ -14,7 +14,7 @@
 # while i <= n:
 #     if n % i == 0:
 #         k += 1
-#     if k < 2: break
+#     if k > 2: break
 #     i += 1
 # if k == 2:
 #     print(f"{n} tub son")
