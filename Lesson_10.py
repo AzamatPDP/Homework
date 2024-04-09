@@ -18,7 +18,7 @@
 
 
 def EKUK(a,b):
-    """2 ta musbat butun sonning EKUKini hisoblovchi funksiya"""
+    """2 ta musbat butun sonning EKUBini hisoblovchi funksiya"""
     x = a
     y = b
     while a != b:
@@ -26,7 +26,7 @@ def EKUK(a,b):
             a -= b
         else:
             b -= a
-    print(f"EKUK({x},{y}) = {a} ")
+    print(f"EKUB({x},{y}) = {a} ")
 
 # #Quyidagicha funksiyaga murojat qilinadi
 n = int(input("1-sonni kiriting:"))
