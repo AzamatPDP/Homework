@@ -17,7 +17,7 @@
 # tub_son(7) #to'g'ridan to'g'ri qiymat berishimiz ham mumkin
 
 
-def EKUK(a,b):
+def EKUB(a,b):
     """2 ta musbat butun sonning EKUBini hisoblovchi funksiya"""
     x = a
     y = b
@@ -31,6 +31,6 @@ def EKUK(a,b):
 # #Quyidagicha funksiyaga murojat qilinadi
 n = int(input("1-sonni kiriting:"))
 m = int(input("2-sonni kiriting:"))
-EKUK(n,m)
+EKUB(n,m)
 # EKUK(12,8) #to'g'ridan to'g'ri qiymat berishimiz ham mumkin
 
