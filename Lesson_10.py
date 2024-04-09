@@ -11,9 +11,11 @@
 #     else:
 #         print(f"{n} tub son emas")
 #
-# #Quyidagicha funksiyaga murojat qililnadi
+# #Quyidagicha funksiyaga murojat qilinadi
 # n = int(input("Ixtiyoriy butun son kiriting=>"))
 # tub_son(n)
+# tub_son(7) #to'g'ridan to'g'ri qiymat berishimiz ham mumkin
+
 
 def EKUK(a,b):
     """2 ta musbat butun sonning EKUKini hisoblovchi funksiya"""
@@ -26,7 +28,9 @@ def EKUK(a,b):
             b -= a
     print(f"EKUK({x},{y}) = {a} ")
 
-# #Quyidagicha funksiyaga murojat qililnadi
+# #Quyidagicha funksiyaga murojat qilinadi
 n = int(input("1-sonini kiriting:"))
 m = int(input("2-sonini kiriting:"))
 EKUK(n,m)
+# EKUK(12,8) #to'g'ridan to'g'ri qiymat berishimiz ham mumkin
+
