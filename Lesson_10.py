@@ -29,8 +29,8 @@ def EKUK(a,b):
     print(f"EKUK({x},{y}) = {a} ")
 
 # #Quyidagicha funksiyaga murojat qilinadi
-n = int(input("1-sonini kiriting:"))
-m = int(input("2-sonini kiriting:"))
+n = int(input("1-sonni kiriting:"))
+m = int(input("2-sonni kiriting:"))
 EKUK(n,m)
 # EKUK(12,8) #to'g'ridan to'g'ri qiymat berishimiz ham mumkin
 
