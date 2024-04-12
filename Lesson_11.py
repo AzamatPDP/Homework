@@ -22,6 +22,7 @@
 # print("Aylanada yuza bo'lmaydi!")
 
 def tub_sonlar(n, m):
+    """Berilgan n va m butun musbat sonlar orasidagi tub sonlar"""
     tub = []
     while n <= m:
         i = n
