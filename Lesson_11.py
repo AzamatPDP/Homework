@@ -41,14 +41,23 @@
 # tublik = tub_sonlar(n, m)
 # print(f"Tub sonlar: {tublik}")
 
+# def fibonachi(n):
+#     fibo = [0, 1]
+#     i = 2
+#     while i < n:
+#         fibo.append(fibo[-1] + fibo[-2])
+#         i += 1
+#     return fibo
+# son = int(input("Nechta fibonachi sonlari kerak:"))
+# print(fibonachi(son))
+
 def fibonachi(n):
     fibo = [0, 1]
-    i = 2
-    while i < n:
+    for i in range(2, n):
         fibo.append(fibo[-1] + fibo[-2])
-        i += 1
     return fibo
 son = int(input("Nechta fibonachi sonlari kerak:"))
 print(fibonachi(son))
+
 
 
