@@ -1,19 +1,19 @@
-def aylana(radius):
-    uzunlik = 2 * 3.14 * radius
-    yuza = 0
-    diametr = 2 * radius
-    
-    aylana_info = {
-        'radius':radius,
-        'uzunlik':uzunlik,
-        'yuza':yuza,
-        'diametr':diametr
-    }
-    return aylana_info
-
-radius = float(input("Radius kiriting:"))
-aylana_info = aylana(radius)
-print(aylana_info)
+# def aylana(radius):
+#     uzunlik = 2 * 3.14 * radius
+#     yuza = 0
+#     diametr = 2 * radius
+#
+#     aylana_info = {
+#         'radius':radius,
+#         'uzunlik':uzunlik,
+#         'yuza':yuza,
+#         'diametr':diametr
+#     }
+#     return aylana_info
+#
+# radius = float(input("Radius kiriting:"))
+# aylana_info = aylana(radius)
+# print(aylana_info)
 
 
 # def tub_sonlar(n, m):
@@ -46,13 +46,13 @@ print(aylana_info)
 # son = int(input("Nechta fibonachi sonlari kerak:"))
 # print(fibonachi(son))
 
-# def fibonachi(n):
-#     fibo = [0, 1]
-#     for i in range(2, n):
-#         fibo.append(fibo[-1] + fibo[-2])
-#     return fibo
-# son = int(input("Nechta fibonachi sonlari kerak:"))
-# print(fibonachi(son))
+def fibonachi(n):
+    fibo = [0, 1]
+    for i in range(2, n):
+        fibo.append(fibo[-1] + fibo[-2])
+    return fibo
+son = int(input("Nechta fibonachi sonlari kerak:"))
+print(fibonachi(son))
 
 
 
