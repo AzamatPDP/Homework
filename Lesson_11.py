@@ -46,13 +46,13 @@
 # son = int(input("Nechta fibonachi sonlari kerak:"))
 # print(fibonachi(son))
 
-def fibonachi(n):
-    fibo = [0, 1]
-    for i in range(2, n):
-        fibo.append(fibo[-1] + fibo[-2])
-    return fibo
-son = int(input("Nechta fibonachi sonlari kerak:"))
-print(fibonachi(son))
+# def fibonachi(n):
+#     fibo = [0, 1]
+#     for i in range(2, n):
+#         fibo.append(fibo[-1] + fibo[-2])
+#     return fibo
+# son = int(input("Nechta fibonachi sonlari kerak:"))
+# print(fibonachi(son))
 
 
 
