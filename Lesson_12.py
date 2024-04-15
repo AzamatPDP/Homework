@@ -16,6 +16,9 @@ def kalkulyator(belgi,*numbers):
         for n in numbers:
             bolinma /= n
         return bolinma * numbers[0]
+    else:
+        result = "Iltimos! quyidagi belgilardan bittasini tanlang:('+','-','*','/')"
+        return result
 
 belgi = input("('+', '-', '*', '/') shulardan bittasini tanlang!:")
 # number = float(input("Son kiriting:"))
