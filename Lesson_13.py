@@ -1,0 +1,15 @@
+# numbers = list(range(-5,5))
+# print(numbers)
+# musbat_numbers = list(filter(lambda num: num > 0,numbers))
+# print(musbat_numbers)
+
+numbers = list(range(1,6))
+print(sorted(numbers,reverse=True))
+# teskari_list = list(map(lambda num : sorted(numbers,reverse=True),numbers))
+# print(teskari_list)
+
+# numbers = list(range(-5,5))
+# juft_numbers = list(filter(lambda num : num % 2 == 0,numbers))
+# print(juft_numbers)
+# kvadrat = list(map(lambda num : num * num, juft_numbers))
+# print(kvadrat)
