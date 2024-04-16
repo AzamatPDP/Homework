@@ -4,9 +4,8 @@
 # print(musbat_numbers)
 
 numbers = list(range(1,6))
-print(sorted(numbers,reverse=True))
-# teskari_list = list(map(lambda num : sorted(numbers,reverse=True),numbers))
-# print(teskari_list)
+teskari_list = lambda num : num[::-1]
+print(teskari_list(numbers))
 
 # numbers = list(range(-5,5))
 # juft_numbers = list(filter(lambda num : num % 2 == 0,numbers))
