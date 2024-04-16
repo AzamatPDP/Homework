@@ -21,7 +21,6 @@
 #         return result
 #
 # belgi = input("('+', '-', '*', '/') shulardan bittasini tanlang!:")
-# # number = float(input("Son kiriting:"))
 # print(kalkulyator(belgi,6,9,3))
 
 def birlashtiruvchi(*royxatlar):
