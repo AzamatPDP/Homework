@@ -5,6 +5,8 @@ class User:
         self.yosh = age
         self.email = email
 
+    def maxAge(self):
+        pass
     def get_age(self):
         return f"Yosh:{self.yosh}"
     def get_fullname(self):
@@ -23,4 +25,5 @@ print(user1.get_age())
 print(user1.get_email())
 user2.get_info()
 user3.get_info()
+
 
