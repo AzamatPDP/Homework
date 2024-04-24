@@ -73,6 +73,6 @@ class Admin(User):
         return f"Foydalanuvchi bloklandi!"
 
 admin = Admin("Azamat", "Jumabayev", "AD0019319", 2004, "azamatjumabayev", "Azamat8774")
-# print(admin.ban_user())
+print(admin.ban_user())
 
 
