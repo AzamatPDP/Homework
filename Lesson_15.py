@@ -5,7 +5,6 @@ class Avto:
         self.karobka = karobka
         self.price = price
         self.kilometr = 0
-
     def get_model(self):
         return self.model
     def get_color(self):
@@ -29,7 +28,6 @@ avto.update_km(50)
 print(avto.get_info())
 avto.update_model('BMW X6 NEW',125_000)
 print(avto.get_info())
-
 
 class Avtosalon:
     def __init__(self, car_showroom, adress):
@@ -56,5 +54,8 @@ liderCarSalon.add_car(avto3)
 print(f"Avtosalondagi mashinalar soni: {liderCarSalon.carsCount}")
 print(liderCarSalon.cars_info())
 
-
+# def see_methods(klass):
+#     return [method for method in dir(klass) if method.startswith('__') is False]
+# print(see_methods(Avto))
+# print(see_methods(Avtosalon))
 
