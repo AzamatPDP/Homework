@@ -8,7 +8,7 @@ class Shaxs:
         Shaxs.odamlar_soni += 1
 
     @classmethod
-    def get_odam_count(cls):
+    def get_person_count(cls):
         return cls.odamlar_soni
     def get_info(self):
         info = f"{self.ism} {self.familya},"
@@ -29,7 +29,7 @@ class Talaba(Shaxs):
         Talaba.talabalar_soni += 1
 
     @classmethod
-    def talaba_count(cls):
+    def get_talaba_count(cls):
         return cls.talabalar_soni
     def get_idRaqam(self):
         return self.__idRaqam
