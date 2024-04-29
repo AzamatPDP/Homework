@@ -1,0 +1,42 @@
+with open('pi.txt') as fayl:
+    pi = fayl.read()
+print(pi)
+
+fayl = open('pi.txt')
+PI = fayl.read()
+print(PI)
+fayl.close()
+
+fayl = open('pi.txt')
+pi = fayl.read()
+pi = pi.strip()
+pi = pi.replace('\n', '')
+pi = float(pi)
+print(pi)
+
+filename = 'talabalar.txt'
+with open(filename) as file:
+    for line in file:
+        print(line)
+
+filename = 'talabalar.txt'
+with open(filename) as fayl:
+    talabalar = fayl.readlines()
+print(talabalar)
+talabalar = [talaba.rstrip() for talaba in talabalar]
+print(talabalar)
+
+filename = 'azamatinfo.txt'
+with open(filename, 'w') as file:
+    file.write('Jumabayev Azamat'+'\n')
+    file.write("2004-yilda tug'ilgan")
+
+filename = 'family.txt'
+name = 'Azamat'
+surname = 'Jumabayev'
+with open(filename,'w') as file:
+    file.write(name)
+    file.write(surname)
+
+
+
