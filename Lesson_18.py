@@ -12,6 +12,6 @@ n = input("Tug'ilgan kuningzini kiriting:")
 if oneday(n):
     print("Bu son π ning qiymati ichida bor")
 else:
-    print("Bu son π ning qiymati ichida bor yo'q")
+    print("Bu son π ning qiymati ichida yo'q")
 number = float(n)
 print(type(number))
