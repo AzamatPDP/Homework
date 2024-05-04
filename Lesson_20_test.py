@@ -4,13 +4,13 @@ from Lesson_20 import maxnumber, stringTitle, juftNumbers, fiboNumber
 # class MaxxNumberTest(unittest.TestCase):
 #     def maxx3Number(self):
 #         numbers = maxnumber(3,2,5)
-#         self.assertAlmostEqual(numbers,5)
+#         self.assertEqual(numbers,5)
 # unittest.main()
 
 # class StringTitleTest(unittest.TestCase):
 #     def stringTest(self):
 #         stringvalue = stringTitle(['azamat','jumabayev','izzat', 'raximov'])
-#         self.assertIs(stringvalue,['Azamat','Jumabayev','Izzat', 'Raximov'])
+#         self.assertEqual(stringvalue,['Azamat','Jumabayev','Izzat', 'Raximov'])
 # unittest.main()
 
 # class juftNumberTest(unittest.TestCase):
