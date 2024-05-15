@@ -55,4 +55,4 @@ def yosh_hisobla(tugilgan_sana):
     return f"Siz {yillar} yil, {oy} oy va {kun} kun yashadingiz."
 
 # Foydalanish misoli:
-print(yosh_hisobla('2004-08-06'))
+print(yosh_hisobla('2004-03-06'))
